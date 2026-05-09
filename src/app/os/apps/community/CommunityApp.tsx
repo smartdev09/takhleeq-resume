@@ -28,7 +28,7 @@ import type { AppComponentProps } from "os/apps/app-types";
 import { useWindowManager } from "os/context/use-window-manager";
 
 const DISCORD_URL =
-  process.env.NEXT_PUBLIC_DISCORD_URL || "https://discord.gg/openresume";
+  process.env.NEXT_PUBLIC_DISCORD_URL || "https://discord.gg/Takhleeq";
 
 interface CardProps {
   icon: React.ComponentType<{ className?: string }>;
@@ -119,10 +119,10 @@ export default function CommunityApp({
             Community
           </p>
           <h1 className="text-3xl font-bold text-foreground">
-            Join the OpenResume community
+            Join the Takhleeq community
           </h1>
           <p className="mt-2 text-sm text-gray-600">
-            OpenResume is a free, open-source project. Contributions of any
+            Takhleeq is a free, open-source project. Contributions of any
             size are welcome — code, docs, templates, translations, even
             kind words on a star.
           </p>
@@ -143,7 +143,7 @@ export default function CommunityApp({
             icon={StarIcon}
             title="Star this project"
             description="Stars are how we measure momentum and unlock one-click PDF export for your account. Takes 5 seconds."
-            cta="Star OpenResume"
+            cta="Star Takhleeq"
             onAction={openAuth}
             testId="community-card-star"
           />
@@ -180,7 +180,7 @@ export default function CommunityApp({
           <CommunityCard
             icon={HeartIcon}
             title="Spread the word"
-            description="Share OpenResume with friends, classmates, or your university's career center. Every share helps another job seeker."
+            description="Share Takhleeq with friends, classmates, or your university's career center. Every share helps another job seeker."
             cta="Tell a friend"
             onAction={() => undefined}
             isExternal

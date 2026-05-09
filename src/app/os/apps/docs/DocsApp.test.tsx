@@ -82,7 +82,7 @@ function makeDocsWindow({
     scrollAnchor,
     isModal: false,
     openedAt: 0,
-    title: "Docs — OpenResume",
+    title: "Docs — Takhleeq",
   };
 }
 

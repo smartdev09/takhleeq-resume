@@ -48,7 +48,7 @@ export function NoscriptFallback() {
     >
       <header style={{ marginBottom: 32 }}>
         <h1 style={{ fontSize: 36, marginBottom: 8 }}>
-          OpenResume — Free Open-source Resume Builder
+          Takhleeq — Free Open-source Resume Builder
         </h1>
         <p style={{ fontSize: 18, color: "#555" }}>
           Build, analyze, and tailor your resume in a calm, focused desktop.
@@ -96,7 +96,7 @@ export function NoscriptFallback() {
           This site is interactive
         </h2>
         <p>
-          OpenResume runs as a small operating-system style desktop in your
+          Takhleeq runs as a small operating-system style desktop in your
           browser. To use the resume builder, parser, AI assistant, and
           template gallery, please enable JavaScript and refresh the page.
         </p>
@@ -104,7 +104,7 @@ export function NoscriptFallback() {
 
       <footer style={{ marginTop: 40, fontSize: 14, color: "#777" }}>
         <p>
-          OpenResume is open source under the AGPL license. Source code at{" "}
+          Takhleeq is open source under the AGPL license. Source code at{" "}
           <a
             href={`https://github.com/${REPO}`}
             style={{ color: "#2563eb" }}

@@ -188,7 +188,7 @@ function AnonymousState({
           Sign in with GitHub to unlock PDF export
         </h2>
         <p className="mt-2 text-sm text-os-ink-muted">
-          OpenResume is built solo and free. A star helps the project get
+          Takhleeq is built solo and free. A star helps the project get
           discovered. In return you get a polished PDF resume, forever.
         </p>
       </div>
@@ -216,7 +216,7 @@ function AnonymousState({
           id="auth-why-explainer"
           className="text-left text-xs text-os-ink-muted"
         >
-          OpenResume is open source and free to use. Stars are how a tiny
+          Takhleeq is open source and free to use. Stars are how a tiny
           project finds new contributors and stays alive — they take you ten
           seconds and cost nothing. We never ask for an email, never read
           your repos, and never share your data. Your username is stored in

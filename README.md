@@ -1,4 +1,4 @@
-# OpenResume
+# Takhleeq
 
 Free, open-source, AI-powered resume builder. Build ATS-safe resumes in minutes.
 

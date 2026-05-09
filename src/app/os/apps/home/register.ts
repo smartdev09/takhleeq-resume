@@ -20,7 +20,7 @@ const SCROLL_ANCHORS = [
 
 registerApp<"home">({
   appId: "home",
-  title: (_props: AppPropsMap["home"]) => "home.md — OpenResume",
+  title: (_props: AppPropsMap["home"]) => "home.md — Takhleeq",
   icon: HomeIcon,
   desktopLabel: "home.md",
   defaultSize: { width: 900, height: 620 },

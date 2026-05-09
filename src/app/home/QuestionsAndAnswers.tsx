@@ -15,7 +15,7 @@ const QAS = [
         <p>
           Manual templates are tedious and error-prone — inconsistent bullet
           styles, mismatched fonts, and spacing issues are common pitfalls.
-          OpenResume eliminates all of that by handling formatting automatically,
+          Takhleeq eliminates all of that by handling formatting automatically,
           so you can focus on what matters: writing compelling content. Changing
           fonts, colors, or layout takes a single click rather than hours of
           manual work.
@@ -25,13 +25,13 @@ const QAS = [
   },
   {
     question:
-      "Q2. What uniquely sets OpenResume apart from other resume builders?",
+      "Q2. What uniquely sets Takhleeq apart from other resume builders?",
     answer: (
       <>
         <p>
           Other great free resume builders exist, e.g.{" "}
           <Link href="https://rxresu.me/">Reactive Resume</Link> and{" "}
-          <Link href="https://flowcv.com/">FlowCV</Link>. OpenResume stands out
+          <Link href="https://flowcv.com/">FlowCV</Link>. Takhleeq stands out
           with several distinctive features:
         </p>
         <p>
@@ -58,7 +58,7 @@ const QAS = [
             3. Global job market support, including Pakistan.
           </span>
           <br />
-          OpenResume is built for job seekers worldwide — from Karachi to San
+          Takhleeq is built for job seekers worldwide — from Karachi to San
           Francisco. It includes Pakistan-friendly date formats (DD/MM/YYYY),
           a country field, and local sample resumes.
         </p>
@@ -72,10 +72,10 @@ const QAS = [
     ),
   },
   {
-    question: "Q3. Who created OpenResume and why?",
+    question: "Q3. Who created Takhleeq and why?",
     answer: (
       <p>
-        OpenResume was originally created by{" "}
+        Takhleeq was originally created by{" "}
         <Link href="https://github.com/xitanggg">Xitang Zhao</Link> and designed
         by <Link href="https://www.linkedin.com/in/imzhi">Zhigang Wen</Link> as
         a weekend project to help first-generation students and immigrants avoid
@@ -89,7 +89,7 @@ const QAS = [
     ),
   },
   {
-    question: "Q4. How can I support OpenResume?",
+    question: "Q4. How can I support Takhleeq?",
     answer: (
       <>
         <p>
@@ -105,7 +105,7 @@ const QAS = [
           <Link href="https://github.com/xitanggg/open-resume/issues/new">
             opening an issue
           </Link>{" "}
-          on GitHub, or spread the word by sharing OpenResume with friends,
+          on GitHub, or spread the word by sharing Takhleeq with friends,
           classmates, or your university&apos;s career center. The goal is to
           reach every job seeker who deserves a great resume but doesn&apos;t
           have access to expensive tools.
@@ -114,15 +114,15 @@ const QAS = [
     ),
   },
   {
-    question: "Q5. Does OpenResume work for Pakistani job seekers?",
+    question: "Q5. Does Takhleeq work for Pakistani job seekers?",
     answer: (
       <p>
-        Yes — OpenResume was built with the global job market in mind, and
+        Yes — Takhleeq was built with the global job market in mind, and
         Pakistan is a first-class citizen. The builder supports DD/MM/YYYY date
         formats commonly used in Pakistan and the broader South Asian job
         market. A country field is included in the profile section. Sample
         resumes reflect local conventions. Whether you&apos;re applying to
-        companies in Karachi, Lahore, Dubai, or San Francisco, OpenResume
+        companies in Karachi, Lahore, Dubai, or San Francisco, Takhleeq
         generates ATS-safe, professionally formatted resumes that travel well
         across borders.
       </p>

@@ -264,7 +264,7 @@ export const ResumePDF = ({
 
   return (
     <ResumePDFSettingsProvider bulletStyle={bulletStyle} lineHeight={lineHeight}>
-      <Document title={`${displayName} Resume`} author={displayName} producer={"OpenResume"}>
+      <Document title={`${displayName} Resume`} author={displayName} producer={"takhleeq"}>
         <Page
           size={documentSize === "A4" ? "A4" : "LETTER"}
           style={{

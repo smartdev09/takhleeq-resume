@@ -1,4 +1,4 @@
-# Contributing to OpenResume
+# Contributing to Takhleeq
 
 Thank you for your interest in contributing! This document outlines how to get started.
 

@@ -11,7 +11,7 @@ import type { AppPropsMap } from "os/apps/app-types";
 
 registerApp<"community">({
   appId: "community",
-  title: (_props: AppPropsMap["community"]) => "Community — OpenResume",
+  title: (_props: AppPropsMap["community"]) => "Community — Takhleeq",
   icon: ChatBubbleLeftRightIcon,
   desktopLabel: "Community",
   defaultSize: { width: 760, height: 600 },

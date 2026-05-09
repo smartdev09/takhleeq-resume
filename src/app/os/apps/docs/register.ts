@@ -18,7 +18,7 @@ const SCROLL_ANCHORS = [
 
 registerApp<"docs">({
   appId: "docs",
-  title: (_props: AppPropsMap["docs"]) => "Docs — OpenResume",
+  title: (_props: AppPropsMap["docs"]) => "Docs — Takhleeq",
   icon: BookOpenIcon,
   desktopLabel: "Docs",
   defaultSize: { width: 900, height: 620 },

@@ -52,7 +52,7 @@ interface FAQEntry {
 
 const FAQ: ReadonlyArray<FAQEntry> = [
   {
-    q: "Why is OpenResume styled like a desktop OS?",
+    q: "Why is Takhleeq styled like a desktop OS?",
     a: (
       <p>
         It maps the way people actually work on a resume — multiple drafts,
@@ -91,7 +91,7 @@ const FAQ: ReadonlyArray<FAQEntry> = [
     a: (
       <p>
         Stars are how an open-source project signals momentum to potential
-        contributors and sponsors. OpenResume is free forever and stays
+        contributors and sponsors. Takhleeq is free forever and stays
         free; the star gate is a one-time, low-effort ask. If you genuinely
         don&apos;t have a GitHub account, the &quot;I don&apos;t have GitHub&quot;
         bypass on the star window lets you continue.

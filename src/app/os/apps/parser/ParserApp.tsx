@@ -45,7 +45,7 @@ const RESUME_EXAMPLES: ReadonlyArray<{
   {
     fileUrl: "resume-example/openresume-resume.pdf",
     description: (
-      <span>Created with the OpenResume builder.</span>
+      <span>Created with the Takhleeq builder.</span>
     ),
   },
 ];
@@ -127,7 +127,7 @@ export default function ParserApp(_props: AppComponentProps<"parser">) {
           Resume Parser Playground
         </Heading>
         <Paragraph smallMarginTop>
-          This playground showcases the OpenResume resume parser and what it
+          This playground showcases the Takhleeq resume parser and what it
           can extract from a resume PDF. Pick a sample below or drop in your
           own — everything runs locally in your browser.
         </Paragraph>

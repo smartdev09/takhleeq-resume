@@ -103,7 +103,7 @@ export function StarGateModal({
                 One small ask
               </h2>
               <p className="mt-2 text-sm text-gray-600">
-                OpenResume is built solo and free. A GitHub star costs you
+                Takhleeq is built solo and free. A GitHub star costs you
                 nothing and helps the project get discovered. In return, you get
                 a polished PDF resume — forever.
               </p>

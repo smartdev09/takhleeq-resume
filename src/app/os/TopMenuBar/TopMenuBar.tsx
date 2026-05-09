@@ -180,7 +180,7 @@ export function TopMenuBar() {
             type="button"
             data-testid="menu-logo"
             onClick={() => openOrFocus({ label: "home", appId: "home" })}
-            aria-label="OpenResume — home"
+            aria-label="Takhleeq — home"
             className={cn(
               "flex items-center gap-1.5 rounded px-2 py-1 text-sm font-semibold text-os-ink",
               "hover:bg-os-titlebar focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-brand",
@@ -190,7 +190,7 @@ export function TopMenuBar() {
               aria-hidden
               className="inline-block h-3.5 w-3.5 rounded-sm bg-brand"
             />
-            OpenResume
+            Takhleeq
           </button>
           <Menubar.Root className="flex items-center gap-0.5">
             {MENUS.map((menu) => (

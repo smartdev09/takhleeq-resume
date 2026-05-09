@@ -278,7 +278,7 @@ If at any point this becomes a blocker or starts generating support load, fall b
 
 ## Phase 4B — GitHub OAuth star-gate (~2 days) [BLOCKED on D9, D10, D11, D12]
 
-**Goal:** PDF download is gated behind a verified GitHub star on the OpenResume repo. Implemented via OAuth so it cannot be spoofed. All other product features (build, edit, AI improve, JSON import/export, dashboard) remain unauthenticated.
+**Goal:** PDF download is gated behind a verified GitHub star on the Takhleeq's repo. Implemented via OAuth so it cannot be spoofed. All other product features (build, edit, AI improve, JSON import/export, dashboard) remain unauthenticated.
 
 **Architecture summary:**
 - New backend routes under `src/app/api/auth/github/*` handle the OAuth dance.

@@ -167,7 +167,7 @@ export default function HomeApp({
             .
           </p>
           <ul
-            aria-label="Why OpenResume"
+            aria-label="Why Takhleeq"
             className="mt-5 flex flex-wrap gap-2 text-xs text-gray-600"
           >
             {HERO_VALUES.map(({ icon: Icon, label }) => (

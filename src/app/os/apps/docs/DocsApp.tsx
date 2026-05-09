@@ -80,7 +80,7 @@ export default function DocsApp({
       <article className="prose mx-auto max-w-2xl px-6 py-8 lg:px-10 lg:py-10">
         <header className="mb-6 border-b border-os-window-border pb-4">
           <p className="text-xs uppercase tracking-wide text-os-ink-muted">
-            OpenResume documentation
+            Takhleeq documentation
           </p>
           <h1 className="text-3xl font-bold text-foreground">
             Docs
@@ -101,7 +101,7 @@ export default function DocsApp({
             Getting Started
           </h2>
           <p className="mt-2 text-gray-700">
-            Everything in OpenResume happens inside windows on a desktop.
+            Everything in Takhleeq happens inside windows on a desktop.
             Click a desktop icon to open a window, drag the title bar to
             move it, drag a corner to resize, or drag past a viewport edge
             to snap it to half. The dock at the bottom keeps track of every
@@ -148,7 +148,7 @@ export default function DocsApp({
           <h2 className="text-xl font-semibold text-foreground">AI Setup</h2>
           <p className="mt-2 text-gray-700">
             All AI features (one-click ATS improvements, bullet rewrites,
-            JD-tailoring, cover letters) need an AI provider. OpenResume
+            JD-tailoring, cover letters) need an AI provider. Takhleeq
             supports four, listed roughly from most-private to most-capable:
           </p>
           <ul className="mt-3 space-y-2 pl-5 text-gray-700">

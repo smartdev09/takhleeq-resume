@@ -5,7 +5,7 @@ import { TrashIcon } from "@heroicons/react/24/outline";
 import type { AppComponentProps } from "os/apps/app-types";
 
 /**
- * Trash window — OpenResume currently hard-deletes resumes from IndexedDB
+ * Trash window — Takhleeq currently hard-deletes resumes from IndexedDB
  * when you remove them in My Resumes, so there is nothing to list here yet.
  * This window replaces the Phase-2 placeholder and sets honest expectations.
  */

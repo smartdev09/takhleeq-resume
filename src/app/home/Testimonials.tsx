@@ -11,21 +11,21 @@ const TESTIMONIALS = [
   {
     src: testimonialSpiegelSrc,
     quote:
-      "Students often make silly mistakes on their resume by using inconsistent bullet points or font sizes. OpenResume’s auto format feature is a great help to ensure consistent format.",
+      "Students often make silly mistakes on their resume by using inconsistent bullet points or font sizes. Takhleeq auto format feature is a great help to ensure consistent format.",
     name: "Ms. Spiegel",
     title: "Educator",
   },
   {
     src: testimonialSantiSrc,
     quote:
-      "I used OpenResume during my last job search and was invited to interview at top tech companies such as Google and Amazon thanks to its slick yet professional resume design.",
+      "I used Takhleeq during my last job search and was invited to interview at top tech companies such as Google and Amazon thanks to its slick yet professional resume design.",
     name: "Santi",
     title: "Software Engineer",
   },
   {
     src: testimonialVivianSrc,
     quote:
-      "Creating a professional resume on OpenResume is so smooth and easy! It saves me so much time and headache to not deal with google doc template.",
+      "Creating a professional resume on Takhleeq is so smooth and easy! It saves me so much time and headache to not deal with google doc template.",
     name: "Vivian",
     title: "College Student",
   },
@@ -67,7 +67,7 @@ export const Testimonials = ({ children }: { children?: React.ReactNode }) => {
       <h2 className="mb-8 text-center text-3xl font-bold">
         People{" "}
         <Image src={heartSrc} alt="love" className="-mt-1 inline-block w-7" />{" "}
-        OpenResume
+        Takhleeq
       </h2>
       <div className="mx-auto mt-10 h-[240px] max-w-lg lg:h-[400px] lg:pt-20">
         <div className="relative lg:ml-[-50px]">

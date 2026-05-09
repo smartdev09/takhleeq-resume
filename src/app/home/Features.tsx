@@ -15,7 +15,7 @@ const FEATURES = [
   {
     icon: Lock,
     title: "Privacy First",
-    text: "Your data lives in your browser. No accounts, no databases, no data sold. OpenResume believes your resume is yours — and only yours.",
+    text: "Your data lives in your browser. No accounts, no databases, no data sold. Takhleeq believes your resume is yours — and only yours.",
   },
   {
     icon: Globe2,

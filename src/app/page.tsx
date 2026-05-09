@@ -1,5 +1,5 @@
 /**
- * Root route — mounts the OpenResume OS desktop.
+ * Root route — mounts the Takhleeq's OS desktop.
  *
  * The OS chrome (`OSRoot`) is a "use client" component; this server-rendered
  * page wraps it with a `<noscript>` SEO fallback that pre-renders the same
@@ -14,7 +14,7 @@ import { OSRoot } from "os/OSRoot";
 import { NoscriptFallback } from "./noscript-fallback";
 
 export const metadata = {
-  title: "OpenResume — Free Open-source Resume Builder",
+  title: "Takhleeq — Free Open-source Resume Builder",
   description:
     "Build, analyze, and tailor your resume in a calm, focused desktop. ATS-ready PDFs, AI-powered editing, and a paper-on-desk interface that stays out of your way.",
 };

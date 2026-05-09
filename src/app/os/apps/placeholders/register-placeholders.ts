@@ -61,7 +61,7 @@ interface PlaceholderMeta {
 const META: Record<AppId, PlaceholderMeta> = {
   home: {
     label: "home.md",
-    title: "home.md — OpenResume",
+    title: "home.md — Takhleeq",
     icon: HomeIcon,
     bind: "standalone",
     showOnDesktop: true,

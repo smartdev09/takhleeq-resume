@@ -78,7 +78,7 @@ export async function POST(request: Request): Promise<Response> {
       "Content-Type": "application/json",
       Authorization: `Bearer ${apiKey}`,
       "HTTP-Referer": "https://open-resume.app",
-      "X-Title": "OpenResume AI",
+      "X-Title": "Takhleeq AI",
     },
     body: JSON.stringify(orBody),
   });

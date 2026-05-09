@@ -2,7 +2,7 @@
 
 ## Why does the PDF download require a GitHub star?
 
-OpenResume is built solo and free. A star helps with discoverability and keeps the project alive. The star requirement is our way of asking for a small contribution in return for a polished PDF resume.
+Takhleeq is built solo and free. A star helps with discoverability and keeps the project alive. The star requirement is our way of asking for a small contribution in return for a polished PDF resume.
 
 All other features — building, editing, AI improvement, JSON import/export, and the resume parser — remain completely free without any authentication.
 
