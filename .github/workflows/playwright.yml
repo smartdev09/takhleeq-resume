@@ -1,0 +1,42 @@
+name: E2E Tests
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  e2e:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps chromium
+      
+      - name: Run E2E tests
+        run: npx playwright test
+        env:
+          GITHUB_CLIENT_ID: ci_placeholder
+          GITHUB_CLIENT_SECRET: ci_placeholder
+          AUTH_SECRET: ci_placeholder_secret_that_is_32_chars_long
+          NEXT_PUBLIC_GITHUB_REPO: xitanggg/open-resume
+          NEXT_PUBLIC_BASE_URL: http://localhost:3000
+          OPENROUTER_API_KEY: ci_placeholder
+      
+      - name: Upload test results
+        uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: playwright-report
+          path: playwright-report/
+          retention-days: 30

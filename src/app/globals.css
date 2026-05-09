@@ -1,0 +1,98 @@
+@import url("/fonts/fonts.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .text-primary {
+    @apply text-brand !important;
+  }
+  .outline-theme-purple {
+    @apply hover:opacity-80 hover:outline-[color:var(--theme-primary)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[color:var(--theme-primary)];
+  }
+  .outline-theme-blue {
+    @apply hover:opacity-80 hover:outline-[color:var(--theme-secondary)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[color:var(--theme-secondary)];
+  }
+  .within-outline-theme-purple {
+    @apply focus-within:outline focus-within:outline-2 focus-within:outline-offset-2 focus-within:outline-[color:var(--theme-primary)] hover:opacity-80 hover:outline-[color:var(--theme-primary)];
+  }
+}
+
+ :root {
+  --font-sans: Inter, system-ui, sans-serif;
+  --color-brand-primary: 58 122 116;
+  --color-brand-secondary: 245 181 1;
+  --color-text-base: 0 0 0;
+  --color-surface-app: 244 245 246;
+  --color-surface-panel: 247 247 247;
+  --color-surface-muted: 220 233 231;
+  --theme-primary: rgb(var(--color-brand-primary));
+  --theme-secondary: rgb(var(--color-brand-secondary));
+  --theme-text: rgb(var(--color-text-base));
+  /* Deprecated names kept for compatibility during migration */
+  --theme-purple: var(--theme-primary);
+  --theme-blue: var(--theme-secondary);
+  /* Keep the below variable names in sync with CSS_VARIABLES in globals-css.ts */
+  --top-nav-bar-height: 3.5rem;
+  --resume-control-bar-height: 3rem;
+  --resume-padding: 1.5rem;
+
+  /* ------------------------------------------------------------------
+   * OS desktop theme tokens (paper / desk palette).
+   * Phase 2 introduces these alongside the existing brand colors so the
+   * dashboard chrome can keep using its tokens until Phase 4 retires it.
+   * ------------------------------------------------------------------ */
+  --os-wallpaper-base: #e8e2d4;
+  --os-wallpaper-tint: #efe8d8;
+  --os-wallpaper-grain:
+    radial-gradient(
+      circle at 20% 30%,
+      rgba(255, 255, 255, 0.55) 0,
+      transparent 35%
+    ),
+    radial-gradient(
+      circle at 80% 70%,
+      rgba(120, 92, 60, 0.08) 0,
+      transparent 45%
+    ),
+    radial-gradient(
+      circle at 50% 50%,
+      rgba(0, 0, 0, 0.02) 0,
+      transparent 60%
+    );
+  --os-window-bg: #fefdfb;
+  --os-window-border: #d8d2c2;
+  --os-window-border-focused: rgb(var(--color-brand-primary));
+  --os-window-shadow: 0 12px 28px -10px rgba(76, 56, 28, 0.22),
+    0 4px 10px -6px rgba(76, 56, 28, 0.14);
+  --os-titlebar-bg: #faf6ed;
+  --os-titlebar-bg-focused: #fefdfb;
+  --os-dock-bg: rgba(254, 253, 251, 0.78);
+  --os-menu-bg: rgba(254, 253, 251, 0.85);
+  --os-ink: #2a2620;
+  --os-ink-muted: #6b6253;
+  --os-accent-warm: #c98b3b;
+
+  --os-menu-bar-height: 36px;
+  --os-dock-height: 56px;
+}
+
+[data-theme="dark"] :root {
+  /* No dark mode is shipped in Phase 2, but keeping the slot reserved
+   * means future dark-mode work needs only to populate these tokens. */
+  --os-wallpaper-base: #2a261f;
+  --os-wallpaper-tint: #322d24;
+  --os-window-bg: #2f2a22;
+  --os-window-border: #3f3a2f;
+  --os-titlebar-bg: #2a261f;
+  --os-titlebar-bg-focused: #34302a;
+  --os-dock-bg: rgba(40, 36, 30, 0.78);
+  --os-menu-bg: rgba(40, 36, 30, 0.85);
+  --os-ink: #f3ecdb;
+  --os-ink-muted: #b6ac96;
+}
+
+body {
+  color: var(--theme-text);
+  font-family: var(--font-sans);
+}

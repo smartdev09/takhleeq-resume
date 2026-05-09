@@ -1,0 +1,43 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Type check
+        run: npx tsc --noEmit
+      
+      - name: Lint
+        run: npm run lint
+      
+      - name: Unit tests
+        run: npm run test:ci
+      
+      - name: Build
+        run: npm run build
+        env:
+          # Required env vars for build (use placeholder values for CI)
+          GITHUB_CLIENT_ID: ci_placeholder
+          GITHUB_CLIENT_SECRET: ci_placeholder
+          AUTH_SECRET: ci_placeholder_secret_that_is_32_chars_long
+          NEXT_PUBLIC_GITHUB_REPO: xitanggg/open-resume
+          NEXT_PUBLIC_BASE_URL: http://localhost:3000
+          OPENROUTER_API_KEY: ci_placeholder
